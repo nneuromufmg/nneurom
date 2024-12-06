@@ -1,0 +1,341 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Softwares - NNeuroM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">   
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <span class="black">N</span><span class="red">NEURO</span><span class="black">M</span>
+            </a>
+        </div>
+        <div class="search-container">
+            <input type="text" placeholder="Buscar no site...">
+            <button>Search</button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="membros.html">Membros</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="publicacoes.html">Publicações</a></li>
+                <li><a href="softwares.html">Softwares</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section-1">
+            <h1>Softwares</h1>            
+        </section>
+        
+        <section class="section-2">
+            <div class="software-list">
+                <div class="software-item">
+                    <img src="acelerometro.png" alt="NNeuroMAccel">
+                    <div class="software-content">
+                        <h2>NNeuroMAccel</h2>
+                        <p>
+                            O NneuromAccel é um aplicativo desenvolvido para celular (sistema Android) utilizado para avaliar a aceleração nos três eixos (x, y e z). Você deve definir a frequência (número de pontos por segundo), a duração (em segundos) de cada tentativa e o número de tentativas. Por exemplo, você defini 100 no campo “Frequency”, 1 no campo “Time trial(s)” e 10 no campo “Trials”. Neste exemplo, será adquirido 100 pontos por segundo em cada uma das dez tentativas. Ao final de todas as tentativas aparecerá a tela final com o número de tentativas realizadas e um botão para enviar os dados de cada tentativa. Ao pressionar o botão abrirá uma caixa de diálogo para compartilhar os dados com as mídias instaladas no celular (ex., whatsapp ou e-mail). As tentativas serão enviadas uma a uma! Note, os dados enviados correspondem aos valores de x, y, z e o tempo, de cada “ponto” ao longo das tentativas.
+                        </p>
+                        <a href="https://github.com/apolinario-souza/NNeuromAccel" target="_blank"> 
+                            <button>Download</button>
+                        </a>
+                    </div>
+                </div>
+    
+                <div class="software-item">
+                    <img src="default.png" alt="NNeuroMReact">
+                    <div class="software-content">
+                        <h2>NNeuroMReact</h2>
+                        <p>
+                            O NneuromReact um aplicativo desenvolvido para celular (sistema Android) utilizado para avaliar a o tempo de reação em tarefas discretas. Você deve definir a duração máxima e a sensibilidade do sistema. A sensibilidade é um valor arbitrário, em percentual, definido para indicar o nível de tolerância de aceleração para indicar início de movimento. Em outras palavras, o valor indicado no campo “sensitivity (0 – 100%)” indicará o percentual de variação permitido para que considere início do movimento.
+                        </p>
+                        <a href="https://github.com/apolinario-souza/NNeuromAccel" target="_blank">
+                            <button>Download</button>
+                        </a>
+                    </div>
+                </div>
+    
+                <div class="software-item">
+                    <img src="default.png" alt="Serial Reaction Time Task">
+                    <div class="software-content">
+                        <h2>Serial Reaction Time Task</h2>
+                        <p>-</p>
+                        <a href="https://github.com/apolinario-souza/Serial_reaction_time_task" target="_blank">
+                            <button>Download</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 NNEUROM - Desenvolvido por Isabelle Nery</p>
+    </footer>
+    
+    <style>  
+        
+    body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 5%;
+        background-color: #fff;
+        color: #333;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .logo {
+        flex: 1 1 auto;
+        text-align: left;
+    }
+
+    .logo a {
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: normal;
+        color: #333;
+        letter-spacing: 3px;
+    }
+
+    .logo a .red {
+        color: #CC0033;
+    }
+
+    .logo a .black {
+        color: #000;
+    }
+
+    .search-container {
+        flex: 2 1 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .search-container input {
+        padding: 5px;
+        font-size: 14px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        outline: none;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .search-container button {
+        padding: 5px 10px;
+        font-size: 14px;
+        background-color: #CC0033;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-left: 5px;
+    }
+
+    .search-container button:hover {
+        background-color: darkred;
+    }
+
+    nav {
+        flex: 1 1 auto;
+        text-align: right;
+    }
+
+    nav ul {
+        list-style: none;
+        font-size: 14px;
+        display: flex;
+        gap: 15px;
+        padding: 0;
+        margin: 0;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+    }
+
+    nav ul li {
+        flex: 1 1 auto;
+        white-space: nowrap;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #000;
+        font-weight: normal;
+        font-size: 14px;
+        transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+        color: red;
+    }
+
+/* Responsividade header */
+    @media (max-width: 768px) {
+        header {
+            flex-direction: column;
+            align-items: stretch;
+        }
+
+        nav ul {
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .search-container {
+            display: none;
+        }
+
+        nav {
+            order: 2;
+        }
+
+        .logo {
+            order: 1;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+    }
+        
+    .section-1 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .section-1 h1 {
+        font-size: 50px;
+        color: #000;
+        margin-bottom: 5px;
+        font-weight: normal;
+        letter-spacing: 5px;
+    }
+
+    .software-list {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 40px;
+    }
+
+    .software-item {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        border-bottom: 2px solid #ddd;
+        padding-bottom: 20px;
+    }
+
+    .software-item img {
+        width: 150px;
+        height: 150px;
+        object-fit: contain;
+    }
+
+    .software-content {
+        flex: 1;
+    }
+
+    .software-content h2 {
+        margin: 0 0 10px;
+        font-size: 24px;
+    }
+
+    .software-content p {
+        margin: 40 40 20px;
+        font-size: 14px;
+        color: #555;
+        line-height: 1.5;
+        text-align: justify;
+    }
+
+    .software-content button {
+        background-color: #000;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    .software-content button:hover {
+        background-color: #444;
+    }
+
+    /* Responsividade para telas menores */
+    @media (max-width: 768px) {
+        .software-list {
+            padding: 20px; /* Reduz o padding para telas menores */
+        }
+    
+        .software-item {
+            flex-direction: column; /* Alinha os itens verticalmente */
+            text-align: center; /* Centraliza o conteúdo */
+            gap: 10px; /* Reduz o espaçamento */
+        }
+    
+        .software-item img {
+            width: 100px; /* Reduz o tamanho da imagem */
+            height: 100px;
+            margin-bottom: 10px; /* Espaço entre a imagem e o texto */
+        }
+    
+        .software-content h2 {
+            font-size: 20px; /* Reduz o tamanho do título */
+            margin-bottom: 10px; /* Espaço entre a imagem e o texto */
+        }
+    
+        .software-content p {
+            font-size: 14px; /* Mantém o texto legível */
+            text-align: justify;
+            margin: 10px 0;
+        }
+    
+        .software-content button {
+            font-size: 14px; /* Reduz o tamanho do botão */
+            padding: 8px 16px; /* Ajusta o padding do botão */
+            margin-top: 10px; /* Espaço entre o texto e o botão */
+        }
+        .section-1 h1 {
+            font-size: 40px;
+        }
+    }
+               
+footer {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 10px;
+    color: #666;
+    border-top: 2px solid #ddd;
+    }
+
+footer p {
+    margin: 0;
+}
+        
+</style>    
+</body>    
+</html>
