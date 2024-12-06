@@ -1,0 +1,460 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - NNeuroM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">   
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <span class="black">N</span><span class="red">NEURO</span><span class="black">M</span>
+            </a>
+        </div>
+        <div class="search-container">
+            <input type="text" placeholder="Buscar no site...">
+            <button>Search</button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="membros.html">Membros</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="publicacoes.html">Publicações</a></li>
+                <li><a href="softwares.html">Softwares</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section-1">
+            <h1>Contato</h1>            
+        </section>
+         
+        <section class="section-2">
+            <div class="left">
+                <div class="icons">
+                    <a href="mailto:nneurom@gmail.com" target="_blank">
+                        <img src="gmail.png" alt="Email">
+                        <p><u>nneurom@gmail.com</u></p>
+                    </a>
+                    <a href="https://www.youtube.com/@nneurom-neurocienciasdomov8303" target="_blank">
+                        <img src="youtube.png" alt="YouTube">
+                        <p><u>neuro_movimento</u></p>
+                    </a>
+                    <a href="https://www.instagram.com/neuro_movimento/" target="_blank">
+                        <img src="insta.png" alt="Instagram">
+                        <p><u>@neuro_movimento</u></p>
+                    </a>
+                </div>
+                <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3752.3474759789087!2d-43.968904725151745!3d-19.867544236365994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa690615bbe2827%3A0x1bd8b08f48e8cec1!2sN%C3%BAcleo%20de%20Neuroci%C3%AAncias%20do%20Movimento%20(NNeuroM)!5e0!3m2!1spt-BR!2sbr!4v1732773754112!5m2!1spt-BR!2sbr" width="1000" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" 
+                    width="800" 
+                    height="300" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                </div>
+               
+                <div class="address">
+                    <p>Universidade Federal de Minas Gerais<br>
+                        Escola de Educação Física, Fisioterapia e Terapia Ocupacional<br>
+                        Av. Pres. Antônio Carlos, 6627, Campus Pampulha Belo Horizonte - MG, 31270-901</p>
+                </div>
+            </div>
+            <div class="right">
+                <h2>Envie-nos uma mensagem e entraremos em contato em breve.</h2>
+                <form action="#" method="post">
+                    <label for="name">Nome: *</label>
+                    <input type="text" id="name" name="name" placeholder="Insira seu nome" required>
+                    <label for="email">E-mail: *</label>
+                    <input type="email" id="email" name="email" placeholder="email@exemplo.com" required>
+                    <label for="message">Mensagem: *</label>
+                    <input type="text" id="mensagem" name="mensagem" placeholder="Insira sua mensagem" required>
+                    <a href="mailto:nneurom@gmail.com" target="_blank">
+                    <button type="button">Enviar</button>
+                    </a>
+                </form>
+            </div>
+    </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 NNEUROM - Desenvolvido por Isabelle Nery</p>
+    </footer>
+    
+    <style>  
+        
+    body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 5%;
+        background-color: #fff;
+        color: #333;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .logo {
+        flex: 1 1 auto;
+        text-align: left;
+    }
+
+    .logo a {
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: normal;
+        color: #333;
+        letter-spacing: 3px;
+    }
+
+    .logo a .red {
+        color: #CC0033;
+    }
+
+    .logo a .black {
+        color: #000;
+    }
+
+    .search-container {
+        flex: 2 1 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .search-container input {
+        padding: 5px;
+        font-size: 14px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        outline: none;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .search-container button {
+        padding: 5px 10px;
+        font-size: 14px;
+        background-color: #CC0033;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-left: 5px;
+    }
+
+    .search-container button:hover {
+        background-color: darkred;
+    }
+
+    nav {
+        flex: 1 1 auto;
+        text-align: right;
+    }
+
+    nav ul {
+        list-style: none;
+        font-size: 14px;
+        display: flex;
+        gap: 15px;
+        padding: 0;
+        margin: 0;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+    }
+
+    nav ul li {
+        flex: 1 1 auto;
+        white-space: nowrap;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #000;
+        font-weight: normal;
+        font-size: 14px;
+        transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+        color: red;
+    }
+
+/* Responsividade header */
+    @media (max-width: 768px) {
+        header {
+            flex-direction: column;
+            align-items: stretch;
+        }
+
+        nav ul {
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .search-container {
+            display: none;
+        }
+
+        nav {
+            order: 2;
+        }
+
+        .logo {
+            order: 1;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+    }
+        
+    .section-1 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .section-1 h1 {
+        font-size: 50px;
+        color: #000;
+        margin-bottom: 5px;
+        font-weight: normal;
+        letter-spacing: 5px;
+    }
+      
+    .section-2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 20px;
+        gap: 20px;
+    }
+        
+    .left {
+        flex: 1;
+        text-align: center;
+        font-size: 14px;
+        margin-bottom: 10px;
+        text-align: center;
+        color: #000;
+        text-decoration: none;
+    }
+        
+    .icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-bottom: 10px;
+    }
+
+    .icons a p {
+        color: #000; 
+        text-decoration: none;
+    }
+
+    .icons a:hover p {
+        color: #CC0033; 
+    }
+        
+    .icons img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        padding: 10px;
+    }
+    
+    .address {
+        font-size: 14px;
+        line-height: 1.6;
+        color: #333;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .right {
+        flex: 1;
+        padding: 20px;
+        border-left: 2px solid #ddd;
+    }
+        
+    .right h2 {
+        font-size: 24px;
+        margin-bottom: 30px;
+        text-align: center;
+        color: #000;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    form label {
+        font-size: 14px;
+        color: #333;
+    }
+        
+    form input, form textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+    
+    form button {
+        background-color: #000;
+        color: #fff;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+        
+    form button:hover {
+        background-color: #red;
+        margin-top: 5px;
+    }
+
+    .map-container {
+        margin-top: 5px;
+        text-align: center;
+    }
+    
+    .map-container iframe {
+        width: 100%;
+        max-width: 800px;
+        height: 200px;
+        border: none;
+    }
+        
+    .map-container p {
+        font-size: 14px;
+        margin-top: 30px;
+        line-height: 1.5;
+        color: #333;
+    }
+
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .section-1 h1 {
+        font-size: 40px;
+    }
+    
+    .section-2 {
+        flex-direction: column; /* Empilha os elementos verticalmente */
+        align-items: center; /* Centraliza os itens */
+        gap: 20px;
+    }
+
+    .left, .right {
+        flex: none;
+        width: 100%; /* Faz com que os elementos ocupem toda a largura */
+        padding: 5px;
+        text-align: center;
+        border-left: 0px solid #ddd;
+    }
+
+    .icons {
+        display: flex; /* Habilita o flexbox */
+        flex-wrap: wrap; /* Permite que os itens quebrem para uma nova linha, se necessário */
+        justify-content: center; /* Centraliza os ícones horizontalmente */
+        align-items: center; /* Centraliza os itens verticalmente */
+        gap: 30px; /* Espaçamento entre os itens */
+    }
+
+    .icons img {
+        width: 70px; /* Reduz o tamanho dos ícones */
+        height: 70px;
+        margin-bottom: 15px;
+    }
+    
+    .icons a {
+        flex-direction: row; /* Ícone e texto lado a lado */
+        align-items: center; /* Centraliza o texto e o ícone */
+        gap: 20px; /* Espaço entre ícone e texto */
+    }
+    
+    .icons a p {
+        display: none;
+        font-size: 12px; /* Texto menor em dispositivos móveis */
+    }
+    
+    .map-container iframe {
+        max-width: 100%; /* O mapa ocupa toda a largura disponível */
+        height: 150px; /* Reduz a altura do mapa */
+    }
+
+    .address {
+        font-size: 10px; /* Texto menor para o endereço */
+    }
+
+    .right h2 {
+        font-size: 20px; /* Reduz o tamanho do título */
+    }
+
+    form {
+        gap: 15px; /* Reduz o espaço entre os elementos do formulário */
+        align-items: flex-start;
+        width: 100%;
+        padding: 10px;
+        
+    }
+
+    form label {
+        font-size: 12px; /* Texto menor para os labels */
+        text-align: left;
+        width: 100%;
+    }
+
+    form input, form textarea {
+        font-size: 12px; /* Texto menor nos campos */
+        width: 100%;
+        padding: 8px;
+        text-align: left;
+    }
+
+    form button {
+        font-size: 14px; /* Botão com texto menor */
+        padding: 10px; /* Padding ajustado */
+        align-self: center;
+    } 
+}
+        
+footer {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 10px;
+    color: #666;
+    border-top: 2px solid #ddd;
+    }
+
+footer p {
+    margin: 0;
+}
+        
+</style>    
+</body>    
+</html>
