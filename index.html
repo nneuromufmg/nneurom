@@ -615,6 +615,7 @@
         letter-spacing: 5px;
         margin-bottom: 40px;
         margin-top: 30px;
+        animation: blink 1s infinite;
     }
     
     .section-5 h1 .red {
@@ -625,7 +626,14 @@
         color: #CC0033; /* Vermelho */
     }
 
-
+    @keyframes blink {
+        0%, 100% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+    }
         
     .section-6 {
         background-color: #000;
